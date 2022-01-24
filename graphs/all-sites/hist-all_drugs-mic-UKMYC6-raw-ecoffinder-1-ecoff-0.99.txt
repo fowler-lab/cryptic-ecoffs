@@ -1,0 +1,11 @@
+INH           ecoffinder        raw    2.36   0.064
+EMB           ecoffinder        raw    4.07   2.106
+MXF           ecoffinder        raw    4.62   0.736
+LEV           ecoffinder        raw    3.39   0.628
+KAN           ecoffinder        raw    2.62   3.066
+AMI           ecoffinder        raw    1.43   0.337
+ETH           ecoffinder        raw    4.61   3.048
+CFZ           ecoffinder        raw    3.02   0.121
+LZD           ecoffinder        raw    4.76   0.812
+DLM           ecoffinder        raw    1.35   0.010
+BDQ           ecoffinder        raw    4.84   0.114
