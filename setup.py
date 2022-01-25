@@ -3,7 +3,7 @@ from setuptools import setup
 from cryptic_ecoffs import __version__
 
 setup(
-    name='CRyPTIC ECOFF/ECV study ',
+    name='CRyPTIC ECOFF ECV study ',
     version=__version__,
     author='Philip W Fowler',
     author_email="philip.fowler@ndm.ox.ac.uk",
