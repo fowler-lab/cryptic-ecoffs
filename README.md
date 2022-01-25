@@ -12,7 +12,7 @@ This repository contains a [jupyter notebook](https://jupyter-notebook-beginner-
 
 ### Using MyBinder
 
-The easiest way by far is to click the Binder logo at the top of this document. This will open a MyBinder session which will install all the required software on a remote container (this can take a few minutes) and furnish you the notebook in browser. You can then run each cell in turn, or add new cells and write your own Python/Pandas code to interrogate the data and analysis.
+The easiest way by far is to click the `launch binder` button at the top of this document. This will open a MyBinder session which will install all the required software on a remote container (this can take a few minutes) and furnish you the notebook in browser. You can then run each cell in turn, or add new cells and write your own Python/Pandas code to interrogate the data and analysis.
 
 ### Installing locally
 
