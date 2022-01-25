@@ -18,8 +18,10 @@ setup(
         "numpy",
         "matplotlib",
         "pandas",
+        "scipy",
         'geopandas',
-        'shapely'
+        'shapely',
+        'jupyterlab'
     ],
     license="TBD",
     zip_safe=False
