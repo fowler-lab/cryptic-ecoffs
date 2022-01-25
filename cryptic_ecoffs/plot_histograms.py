@@ -134,7 +134,7 @@ def plot_histograms(    plate_design,\
     if exclude_site is not None:
         graph_filename="graphs/exclude"+exclude_site
     else:
-        graph_filename="graphs/all-sites"
+        graph_filename="graphs/"
 
     pathlib.Path(graph_filename).mkdir(parents=True, exist_ok=True)
 
@@ -148,14 +148,14 @@ def plot_histograms(    plate_design,\
         graph_filename+="-exclude"+exclude_site
 
     if plot_fitted_normal=="intreg":
-        ecoff_dataframe=pandas.read_csv("tables/ecoffs_output.csv")
+        ecoff_dataframe=pandas.read_csv("tables/STATA_INTERVAL_REGRESSION_RESULTS.csv")
         graph_filename+='-ecoff-'+str(ecoff_percentile)
     elif plot_fitted_normal=="ecoffinder":
-        foo=pandas.read_csv("tables/ecoffs-by-ecoffinder.csv")
+        foo=pandas.read_csv("tables/ECOFFINDER-RESULTS.csv")
         ecoff_dataframe=foo.loc[foo.dataset==output_stem1]
         graph_filename+='-ecoff-'+str(ecoff_percentile)
     elif plot_fitted_normal in ["summary"]:
-        ecoff_dataframe=pandas.read_csv("tables/ecoffs-summary.csv")
+        ecoff_dataframe=pandas.read_csv("tables/ECOFFS_SUMMARY.csv")
 
     if save_ecoff:
         OUTPUT_ECOFF=open(graph_filename+".txt",'w')
