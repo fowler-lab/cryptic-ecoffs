@@ -2,11 +2,13 @@
 
 # Reproducing the Tables and Figures in the CRyPTIC ECOFF/ECV paper
 
-This repository contains a [jupyter notebook](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/index.html) that reads in the raw data from the [CRyPTIC](http://www.crypticproject.org/) project and reproduces the vast majority of the Tables and Figures in the below preprint.
+This repository contains a [jupyter notebook](https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/index.html) that reads in the raw data from the [CRyPTIC](http://www.crypticproject.org/) project and reproduces the vast majority of the Tables and Figures in the below peer-reviewed paper.
 
 > Epidemiological cutoff values for a 96-well broth microdilution plate for high-throughput research antibiotic susceptibility testing of M. tuberculosis
+> 
 > The CRyPTIC Consortium
-> medRxiv preprint [doi:10.1101/2021.02.24.21252386](https://doi.org/10.1101/2021.02.24.21252386)
+> 
+> European Respitatory Journal [doi:10.1183/13993003.00239-2022](https://doi.org/10.1183/13993003.00239-2022)
 
 ## Running the notebook
 
@@ -26,4 +28,3 @@ $ jupyter-lab reproduce-tables-and-figures.ipynb
 ```
 The last command should open a window in your default browser and load the notebook. Again, like with MyBinder you can then step through and run all the cells. All the graphs are written as PDF files to `graphs/` and are identical to the ones in the manuscript.
 
-This README will be updated when the manuscript is published in a peer-reviewed journal.
